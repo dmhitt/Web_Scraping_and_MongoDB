@@ -22,12 +22,11 @@ def scrape():
     quotes = soup.find_all('div', class_='content_title')
 
     news_title = quotes[0].text
-    #print(news_title)
- 
+    
     quotes = soup.find_all('div', class_='article_teaser_body')
 
     news_p = quotes[0].text
-    #print(news_p)
+    
 
     # JPL Mars Space Images
 
@@ -42,7 +41,7 @@ def scrape():
     quotes = soup.find_all('div', class_='floating_text_area')
     link = quotes[0].a['href']
     featured_image_url = url + "/" +link
-    #print(featured_image_url)
+    
 
     # Mars Facts
     url = 'https://galaxyfacts-mars.com/'
@@ -74,7 +73,7 @@ def scrape():
 
 
     quotes = soup.find_all('div', class_='item')
-    #print (quotes)
+    
     ind = 0
     for quote in quotes:
         hm = {}
@@ -84,14 +83,11 @@ def scrape():
         html = browser.html
         soup = bs(html, 'html.parser')
         quotes2 = soup.find('img', class_='wide-image')
-        #print(quotes2)
         src = url + quotes2["src"]
-        #print (src)
         hm['img_url']= src
         hemisphere_image_urls.append(hm)
     
-    #print(hemisphere_image_urls)    
-
+   
     # Store data in a dictionary
     mars_data = {
         'news_title': news_title, 
