@@ -1,4 +1,5 @@
-# Mission to Mars - Web Scrapping - MongoDB
+#  Web Scrapping - MongoDB
+## Mission to Mars
 
 This is a web application that scrapped various websites to collect information about Mars. The data was stored in MongoDB using the Flask framework.
 
@@ -20,5 +21,6 @@ This is a web application that scrapped various websites to collect information 
 <img src = 
 "https://github.com/dmhitt/web-scraping-challenge/blob/main/Missions_to_Mars/Images/Screen_shot_2.png"/>
 
+---
 <img src = 
 "https://github.com/dmhitt/web-scraping-challenge/blob/main/Missions_to_Mars/Images/Screen_shot_3.png"/>
