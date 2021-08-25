@@ -15,6 +15,7 @@ This is a web application that scrapped various websites to collect information 
 * Python, Flask, BeautifulSoup, Jupyter Notebook, MongoDB, HTML, CSS
 
 ---
+### WEBSITE
 <img src = 
 "https://github.com/dmhitt/web-scraping-challenge/blob/main/Missions_to_Mars/Images/Screen_shot_1.png"/>
 
@@ -22,5 +23,6 @@ This is a web application that scrapped various websites to collect information 
 "https://github.com/dmhitt/web-scraping-challenge/blob/main/Missions_to_Mars/Images/Screen_shot_2.png"/>
 
 ---
+### MongoDB 
 <img src = 
 "https://github.com/dmhitt/web-scraping-challenge/blob/main/Missions_to_Mars/Images/Screen_shot_3.png"/>
