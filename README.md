@@ -12,7 +12,7 @@ This is a web application that scrapped various websites to collect information 
     * https://marshemispheres.com
 
 ### TOOLS
-* Python, Flask, BeautifulSoup, Jupyter Notebook, MongoDB, HTML, CSS
+* Python, Flask, Beautiful Soup, Jupyter Notebook, MongoDB, HTML, CSS
 
 ---
 ### WEBSITE
